@@ -1,0 +1,5 @@
+>>log.txt (
+echo %DATE% %TIME%
+hidapitester.exe --vidpid 046D:C52B --open --length 7 --send-output "0x10,0x01,0x0a,0x1a,0x01"
+hidapitester.exe --vidpid 046D:C52B --open --length 7 --send-output "0x10,0x02,0x09,0x11,0x01,0x00,0x00"
+)
